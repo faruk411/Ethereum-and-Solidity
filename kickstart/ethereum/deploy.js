@@ -3,8 +3,8 @@ const { Web3 } = require("web3");
 const compiledFactory = require('./build/CampaignFactory.json')
 
 const provider = new HDWalletProvider(
-    'smart electric local whisper cactus future keen cart worth beauty guilt unfold',
-    'https://sepolia.infura.io/v3/ac8c4d5f05d84e599feef025a34be490'
+    'your recovery words',
+    'your infure link'
 );
 const web3 = new Web3(provider);
 
